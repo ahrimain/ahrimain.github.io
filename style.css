@@ -15,3 +15,9 @@ html {
 #spacertop {
     height: 100px;
 }
+
+.gitbox {
+    width: 1680;
+    margin: 0, auto;
+    color: purple;
+}
