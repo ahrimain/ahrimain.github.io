@@ -12,10 +12,6 @@ body {
     margin: 5px auto;
 }
 
-.box h2 {
-    color: grey;
-}
-
 img {
     width: 100%;
     margin: 0;
@@ -27,15 +23,32 @@ img {
     overflow: hidden;
 }
 
+#gradient {
+    position: absolute;
+    height: 20vh;
+    top: 40vh;
+    width: 100%;
+    background: linear-gradient(transparent, white);
+}
+
+.psbox {
+    background-color: lightgrey;
+    padding: 10px;
+    font-size: 75%;
+}
+
 @media screen and (max-width: 1500px) {
     html {
         font-size: 100%;
     }
     .image {
-        max-height: 80vh;
+        height: 80vh;
         margin: 0 0 5px;
     }
     .box {
         margin: 5px;
+    }
+    #gradient {
+        top: 40vh;
     }
 }
