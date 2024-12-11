@@ -29,7 +29,7 @@ img {
 
 @media screen and (max-width: 1500px) {
     html {
-        font-size: 400%;
+        font-size: 200%;
     }
     .image {
         max-height: 80vh;
