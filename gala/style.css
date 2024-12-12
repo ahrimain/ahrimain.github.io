@@ -32,7 +32,7 @@ img {
 }
 
 .psbox {
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0);
     padding: 10px;
     font-size: 75%;
 }
